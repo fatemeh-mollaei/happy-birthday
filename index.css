@@ -1,0 +1,51 @@
+@font-face {
+  font-family: shabnam;
+  src: url(./assets/Shabnam.eot) format(eot);
+  src: url(./assets/Shabnam.ttf) format(ttf);
+  src: url(./assets/Shabnam.woff) format(woff);
+}
+.footer-codebazan {
+  font-family: shabnam;
+  font-size: 0.8rem;
+  line-height: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  text-align: right;
+  height: 50vh;
+  width: 73%;
+  bottom: 0px;
+  text-align: center;
+  direction: rtl;
+  unicode-bidi: normal;
+  left: 0px;
+  right: 0px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  border-radius: 20%;
+  border: #5c8a05 dotted 10px;
+  opacity: 0.8;
+}
+.background {
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  z-index: -1000;
+  opacity: 0.3;
+}
+body {
+  background-color: #5c8a05;
+  display: flex;
+  justify-content: center;
+}
